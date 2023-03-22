@@ -3,7 +3,7 @@ name: 'demo_dbt'
 version: '1.0.0'
 config-version: 2
 
-profile: 'snowflake'
+profile: 'ff'
 
 source-paths: ["models"]
 analysis-paths: ["analysis"]

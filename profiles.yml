@@ -1,14 +1,15 @@
 # profiles.yml
-:
+ff:
   outputs:
     dev:
-      type: snowflake
-      account: ${{ secrets.DBT_ACCOUNT }}
-      database: DEMO_DB
+      type: postgres
+      account: postgres
+      database: postgres
       schema: PUBLIC
       warehouse: compute_wh
-      role: SYSADMIN
-      user: ${{ secrets.DBT_USER }}
-      password: ${{ secrets.DBT_PASSWORD }}
+      user: postgres
+      password: postgres
       threads: 1
+      host: localhost
+      port: 5432
   target: dev
