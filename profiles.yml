@@ -1,5 +1,5 @@
 # profiles.yml
-snowflake:
+:
   outputs:
     dev:
       type: snowflake
